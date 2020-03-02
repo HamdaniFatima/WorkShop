@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 09:13+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\innovation\settings.py:122
+msgid "English"
+msgstr ""
+
+#: .\innovation\settings.py:123
+msgid "French"
+msgstr ""
+
+#: .\innovation\settings.py:124
+msgid "German"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:95
+msgid "Workshop Industrie 4.0 "
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:96
+msgid "22 au 26 juin 2020"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:97
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua."
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:98
+msgid "Registration"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:119
+msgid "The WorkShop"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:139
+msgid "Hours"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:148
+msgid "Venues"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:157
+msgid "Country"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:166
+msgid "Speakers"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:202
+msgid "WorkShop"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:202
+msgid "Schedule"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:219
+msgid "Introduction et lancement du workshop"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:220
+msgid "Session plénière : Présentation du workshop et de la thématique"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:231
+msgid "Team building et Creativity challenge"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:232
+msgid "Dessiner le concept de ce qu'est la transformation digitale"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:244
+msgid ""
+"De la cascade au management agile en tant que rocher de Sisyphe-Gestion de "
+"la transformation digitale dans les grandes entreprises"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:268
+msgid " Management de la Transformation digiale"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:269
+msgid ""
+"Cours - Management de la transformation digitale dans la perspective de la "
+"recherche en innovation et en stratégie"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:280
+msgid "Keynote : Du vieux vin dans de nouvelles bouteilles ?"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:281
+msgid ""
+"Qu'est-ce que la transformation numérique signifie pour la recherche "
+"organisationnelle"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:293
+msgid " -Analyse qualitative des données à la lumière de la numérisation"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:294
+msgid ""
+" -Atelier transdisciplinaire avec des collègues des disciplines voisines"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:304
+msgid "Digitale Geschäftsmodellinnovationen im Bereich der Landwirtschaft"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:305
+msgid "Soirée conjointe et dîner après la conférence (sponsorisé par BASF SE)"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:321
+msgid ""
+"Cours 1 : Des modèles de maturité numérique pour supporter la transition des "
+"entreprises"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction.html:322
+msgid ""
+"Cour 2 :Construire une stratégie de transformation technologique et digitale"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction_c.html:78
+msgid "Workshop"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction_c.html:78
+msgid "Industrie 4.0 – 22 du 26 juin 2020"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction_c.html:94
+msgid "The Workshop will Start in"
+msgstr ""
+
+#: .\stories\templates\classroom\introduction_c.html:95
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt ut labore."
+msgstr ""

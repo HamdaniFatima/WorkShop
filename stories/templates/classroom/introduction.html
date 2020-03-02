@@ -1,0 +1,841 @@
+
+{% load i18n %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>WorkShop Industry 4.0 Home </title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="{% static 'temp/css/bootstrap.min.css'%}" />
+
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="{% static 'tem/css/owl.carousel.css'%}" />
+	<link type="text/css" rel="stylesheet" href="{% static 'temp/css/owl.theme.default.css'%}" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="{% static 'temp/css/font-awesome.min.css'%}">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="{% static 'temp/css/style.css'%}" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+			  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+			<![endif]-->
+</head>
+<body>
+
+	<!-- Header -->
+	<header id="header" class="transparent-navbar">
+		<!-- container -->
+		<div class="container">
+			<!-- navbar header -->
+			<div class="navbar-header">
+				<!-- Logo -->
+				<div class="navbar-brand">
+					<a class="logo" href="index.html">
+					
+					</a>
+				</div>
+				<!-- /Logo -->
+
+				<!-- Mobile toggle -->
+				<button class="navbar-toggle">
+						<i class="fa fa-bars"></i>
+					</button>
+				<!-- /Mobile toggle -->
+			</div>
+			<!-- /navbar header -->
+
+			<!-- Navigation -->
+			<nav id="nav">
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#schedule">Schedule</a></li>
+					<li><a href="#speakers">Speakers</a></li>
+					<li><a href="#sponsors">Sponsors</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="blog.html">Blog</a></li>
+				</ul>
+			</nav>
+			<!-- /Navigation -->
+		</div>
+		<!-- /container -->
+	</header>
+	<!-- /Header -->
+
+	<!-- Home -->
+	<div id="home">
+		<!-- background image -->
+		<div class="section-bg" style="background-image:url({% static 'temp/img/background01.jpg'%})" data-stellar-background-ratio="0.5"></div>
+		<!-- /background image -->
+
+		<!-- home wrapper -->
+		<div class="home-wrapper">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<!-- home content -->
+					<div class="col-md-8 col-md-offset-2">
+						<div class="home-content">
+							<h1>{% trans "Workshop Industrie 4.0 " %}</h1>
+							<h1>{% trans "22 au 26 juin 2020" %}</h1>
+							<h4 class="lead">{% trans "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %}</h4>
+							<a href="{% url 'post_new' %}" class="main-btn">{% trans "Registration" %}</a>
+						</div>
+					</div>
+					<!-- /home content -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /home wrapper -->
+	</div>
+	<!-- /Home -->
+
+	<!-- About -->
+	<div id="about" class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="section-title">
+					<h3 class="title"><span>About</span> <span style="color: #dd0a37;">{% trans "The WorkShop" %}</span></h3>
+				</div>
+				<!-- /section title -->
+
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<!-- about content -->
+					<div class="about-content">
+						<p>{% trans "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+							dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." %}</p>
+					</div>
+					<!-- /about content -->
+
+					<!-- Numbers -->
+					<div id="numbers">
+						<!-- row -->
+						<div class="row">
+							<!-- number -->
+							<div class="col-md-3 col-sm-3 col-xs-6">
+								<div class="number">
+									<h3><span class="counter" data-from="0" data-to="900" data-speed="1500">0</span>+</h3>
+									<p>{% trans "Hours" %}</p>
+								</div>
+							</div>
+							<!-- /number -->
+
+							<!-- number -->
+							<div class="col-md-3 col-sm-3 col-xs-6">
+								<div class="number">
+									<h3><span class="counter" data-from="0" data-to="750" data-speed="1500">0</span>+</h3>
+									<p>{% trans "Venues" %}</p>
+								</div>
+							</div>
+							<!-- /number -->
+
+							<!-- number -->
+							<div class="col-md-3 col-sm-3 col-xs-6">
+								<div class="number">
+									<h3><span class="counter" data-from="0" data-to="50" data-speed="1500">0</span>+</h3>
+									<p>{% trans "Country" %}</p>
+								</div>
+							</div>
+							<!-- /number -->
+
+							<!-- number -->
+							<div class="col-md-3 col-sm-3 col-xs-6">
+								<div class="number">
+									<h3><span class="counter" data-from="0" data-to="20" data-speed="1500">0</span>+</h3>
+									<p>{% trans "Speakers" %}</p>
+								</div>
+							</div>
+							<!-- /number -->
+						</div>
+						<!-- /row -->
+					</div>
+					<!-- /Numbers -->
+				</div>
+			</div>
+			<!-- row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /About -->
+
+	<!-- Galery -->
+	<div id="galery">
+		<!-- container -->
+	
+		<!-- /container -->
+	</div>
+	<!-- /Galery -->
+
+	<!-- Video CTA -->
+	
+	<!-- /Video CTA -->
+
+	<!-- Event Schedule -->
+	<div id="schedule" class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="section-title">
+					<h3 class="title"><span>{% trans "WorkShop" %}</span> <span style="color: #dd0a37;">{% trans "Schedule" %}</span></h3>
+				</div>
+				<!-- /section title -->
+
+				<div class="col-md-8 col-md-offset-2">
+
+					<div class="events-wrapper">
+						<!-- event -->
+						<div class="event">
+							<div class="event-day">
+								<div>
+									<span class="day">22</span>
+									<span class="year">Juin, 2020</span>
+								</div>
+							</div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+								<h3 class="event-title"> {% trans "Introduction et lancement du workshop" %} </h3>
+								<p>{% trans "Session plénière : Présentation du workshop et de la thématique" %}  </p>
+								<p>By <a href="#">Pr. Dr. Gordon Müller-Seitz, Pr. Dr. Davy Monticolo</a></p>
+							</div>
+						</div>
+						<!-- /event -->
+
+						<!-- event -->
+						<div class="event">
+							<div class="event-hour"></div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+								<h3 class="event-title">{% trans "Team building et Creativity challenge" %}  </h3>
+								<p>{% trans "Dessiner le concept de ce qu'est la transformation digitale" %}</p>
+								<p>By <a href="#">Pr. Dr. Gordon Müller-Seitz, Pr. Dr. Davy Monticolo</a></p>
+							</div>
+						</div>
+						<!-- /event -->
+
+						<!-- event -->
+						<div class="event">
+							<div class="event-hour"></div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+								<h3 class="event-title">Keynote </h3>
+								<p>{% trans "De la cascade au management agile en tant que rocher de Sisyphe-Gestion de la transformation digitale dans les grandes entreprises" %} </p>
+								<p>By <a href="#">Dr. Stephan Westermeyr </a></p>
+							</div>
+						</div>
+						<!-- /event -->
+
+						<!-- event -->
+					
+						<!-- /event -->
+
+						<!-- event -->
+						
+						<!-- /event -->
+
+						<!-- event -->
+						<div class="event">
+							<div class="event-day">
+								<div>
+									<span class="day">23</span>
+									<span class="year">Juin, 2020</span>
+								</div>
+							</div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+								<h3 class="event-title">{% trans " Management de la Transformation digiale" %}  </h3>
+								<p>{% trans "Cours - Management de la transformation digitale dans la perspective de la recherche en innovation et en stratégie" %}  </p>
+								<p>By <a href="#">Prof. Gordon Müller-Seitz</a></p>
+							</div>
+						</div>
+						<!-- /event -->
+
+						<!-- event -->
+						<div class="event">
+							<div class="event-hour"></div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+								<h3 class="event-title">{% trans "Keynote : Du vieux vin dans de nouvelles bouteilles ?" %} </h3>
+								<p>{% trans "Qu'est-ce que la transformation numérique signifie pour la recherche organisationnelle" %} </p>
+								<p>By <a href="#">Prof. Dr. Anja Danner-Schröder</a></p>
+							</div>
+						</div>
+						<!-- /event -->
+
+						<!-- event -->
+						<div class="event">
+							<div class="event-hour"></div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+								<h3 class="event-title">Ateliers, exercices " %} </h3>
+								<p>{% trans " -Analyse qualitative des données à la lumière de la numérisation" %}</p>
+								<p>{% trans " -Atelier transdisciplinaire avec des collègues des disciplines voisines" %} </p>
+								<p>By <a href="#">Dr. Stephan Westermeyr </a></p>
+							</div>
+						</div>
+
+						<div class="event">
+							<div class="event-hour"></div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+								<h3 class="event-title">Visite de la Smart Factory Keynote " %} </h3>
+								<p> {% trans "Digitale Geschäftsmodellinnovationen im Bereich der Landwirtschaft" %}</p>
+								<p> {% trans "Soirée conjointe et dîner après la conférence (sponsorisé par BASF SE)" %} </p>
+								<p>By <a href="#">Dr. Matthias Nachtmann (BASF SE) </a></p>
+							</div>
+						</div>
+						<!-- /event -->
+
+						<div class="event">
+							<div class="event-day">
+								<div>
+									<span class="day">24</span>
+									<span class="year">Juin, 2020" %}</span>
+								</div>
+							</div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+								<h3 class="event-title"> Technologie et modèles digitaux" %}  </h3>
+								<p>{% trans "Cours 1 : Des modèles de maturité numérique pour supporter la transition des entreprises" %}   </p>
+								<p>{% trans "Cour 2 :Construire une stratégie de transformation technologique et digitale" %} </p>
+								<p>By <a href="#"> Pr. Dr. Davy Monticolo, Pr. Mauricio Camargo</a></p>
+							</div>
+						</div>
+						<!-- /event -->
+						
+						<!-- event -->
+						<div class="event">
+							<div class="event-hour"></div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+								<h3 class="event-title">Atelier, exercices   </h3>
+								<p>L'utilisation d'outils numériques : Eyes-tracking, Réalité virtuelle</p>
+								<p>Étude de cas : Evaluation de la maturité numérique, avec plusieurs types d'entreprises
+						
+								</p>
+								<p>By <a href="#">Pr. Dr. Davy Monticolo, Pr. Mauricio Camargo</a></p>
+							</div>
+						</div>
+						<!-- /event -->
+						
+						<!-- event -->
+						<div class="event">
+							<div class="event-hour"></div>
+							<div class="event-content">
+								<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+								<h3 class="event-title">Keynote </h3>
+								<p>Accompagnement des entreprises dans leur démarche de transformation technologique </p>
+								<p><strong>Le cas des entreprises de la sidérurgie en Lorraine</strong></p>
+								<p>By <a href="#">Cédric Lebosse, entreprise SSETI </a></p>
+							</div>
+						</div>
+
+
+
+
+<!------------Day4-->
+<div class="event">
+	<div class="event-day">
+		<div>
+			<span class="day">25</span>
+			<span class="year">Juin, 2020</span>
+		</div>
+	</div>
+	<div class="event-content">
+		<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+		<h3 class="event-title"> Keynote </h3>
+		<p>Management Agile & transformation digitale  </p>
+		
+		<p>By <a href="#"> Pr. Davy Monticolo</a></p>
+	</div>
+</div>
+<!-- /event -->
+<div class="event">
+	<div class="event-hour"></div>
+	<div class="event-content">
+		<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+		<h3 class="event-title">Cours 3   </h3>
+		<p>Design Thinking</p>
+		
+		<p>By <a href="#">Pr. Alaa Hassan</a></p>
+	</div>
+</div>
+<!-- event -->
+<div class="event">
+	<div class="event-hour"></div>
+	<div class="event-content">
+		<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+		<h3 class="event-title">Atelier, exercices   </h3>
+		<p>Méthodes agiles et Design Thinking pour la transformation digitale </p>
+		<p>By <a href="#">Pr. Alaa Hassan</a></p>
+	</div>
+</div>
+<!-- /event -->
+<div class="event">
+	<div class="event-hour"></div>
+	<div class="event-content">
+		<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+		<h3 class="event-title">Défi collectif  </h3>
+		<p> A définir  </p>
+		<p>By <a href="#">Pr. Alaa Hassan</a></p>
+	</div>
+</div>
+
+<!-- event -->
+<div class="event">
+	<div class="event-hour"></div>
+	<div class="event-content">
+		<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+		<h3 class="event-title">Keynote </h3>
+		<p>Management de l’innovation dans le contexte de la transformation digitale </p>
+	
+		<p>By <a href="#"> Pr. Johan Claire </a></p>
+	</div>
+</div>
+<!-------------------Day5-->
+<div class="event">
+	<div class="event-day">
+		<div>
+			<span class="day">26</span>
+			<span class="year">Juin, 2020</span>
+		</div>
+	</div>
+	<div class="event-content">
+		<p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+		<h3 class="event-title"> Séance de clôture </h3>
+		<p>Clôture du défi Agile et Design Thinking</p>
+		<p>Présentations des résultats des groupes</p>
+		<p>By <a href="#">Pr. Dr. Gordon Müller-Seitz, Pr. Dr. Davy Monticolo</a></p>
+	</div>
+</div>
+<!-- /event -->
+
+
+</div>
+
+
+
+
+
+
+
+					
+					<div class="download-btn">
+						<a href="#" class="main-btn">Download Schedule</a>
+					</div>
+
+				</div>
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /Event Schedule -->
+
+	<!-- Speakers -->
+	<div id="speakers" class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="section-title">
+					<h3 class="title"><span>Our</span> <span style="color: #dd0a37;">Speakers</span></h3>
+				</div>
+				<!-- section title -->
+
+				<!-- speaker -->
+				<div class="col-md-4 col-sm-6">
+					<div class="speaker" data-toggle="modal" data-target="#speaker-modal-1">
+						<div class="speaker-img">
+							<img src="{% static 'temp/img/speaker01.jpg'%}" alt="">
+						</div>
+						<div class="speaker-body">
+							<div class="speaker-social">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-instagram"></i></a>
+								<a href="#"><i class="fa fa fa-linkedin"></i></a>
+							</div>
+							<div class="speaker-content">
+								<h2>John Doe</h2>
+								<span>Manager, CEO</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /speaker -->
+						<!-- speaker -->
+						<div class="col-md-4 col-sm-6">
+							<div class="speaker" data-toggle="modal" data-target="#speaker-modal-1">
+								<div class="speaker-img">
+									<img src="{% static 'temp/img/speaker01.jpg'%}" alt="">
+								</div>
+								<div class="speaker-body">
+									<div class="speaker-social">
+										<a href="#"><i class="fa fa-facebook"></i></a>
+										<a href="#"><i class="fa fa-twitter"></i></a>
+										<a href="#"><i class="fa fa-instagram"></i></a>
+										<a href="#"><i class="fa fa fa-linkedin"></i></a>
+									</div>
+									<div class="speaker-content">
+										<h2>John Doe</h2>
+										<span>Manager, CEO</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /speaker -->
+								<!-- speaker -->
+				<div class="col-md-4 col-sm-6">
+					<div class="speaker" data-toggle="modal" data-target="#speaker-modal-1">
+						<div class="speaker-img">
+							<img src="{% static 'temp/img/speaker01.jpg'%}" alt="">
+						</div>
+						<div class="speaker-body">
+							<div class="speaker-social">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-instagram"></i></a>
+								<a href="#"><i class="fa fa fa-linkedin"></i></a>
+							</div>
+							<div class="speaker-content">
+								<h2>John Doe</h2>
+								<span>Manager, CEO</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /speaker -->
+						<!-- speaker -->
+						<div class="col-md-4 col-sm-6">
+							<div class="speaker" data-toggle="modal" data-target="#speaker-modal-1">
+								<div class="speaker-img">
+									<img src="{% static 'temp/img/speaker01.jpg'%}" alt="">
+								</div>
+								<div class="speaker-body">
+									<div class="speaker-social">
+										<a href="#"><i class="fa fa-facebook"></i></a>
+										<a href="#"><i class="fa fa-twitter"></i></a>
+										<a href="#"><i class="fa fa-instagram"></i></a>
+										<a href="#"><i class="fa fa fa-linkedin"></i></a>
+									</div>
+									<div class="speaker-content">
+										<h2>John Doe</h2>
+										<span>Manager, CEO</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /speaker -->
+
+				<!-- speaker -->
+				<div class="col-md-4 col-sm-6">
+					<div class="speaker" data-toggle="modal" data-target="#speaker-modal-1">
+						<div class="speaker-img">
+							<img src="{% static 'temp/img/speaker02.jpg'%}" alt="">
+						</div>
+						<div class="speaker-body">
+							<div class="speaker-social">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-instagram"></i></a>
+								<a href="#"><i class="fa fa fa-linkedin"></i></a>
+							</div>
+							<div class="speaker-content">
+								<h2>John Doe</h2>
+								<span>Manager, CEO</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /speaker -->
+
+				<!-- speaker -->
+				<div class="col-md-4 col-sm-6">
+					<div class="speaker" data-toggle="modal" data-target="#speaker-modal-1">
+						<div class="speaker-img">
+							<img src="{% static 'temp/img/speaker03.jpg'%}" alt="">
+						</div>
+						<div class="speaker-body">
+							<div class="speaker-social">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-instagram"></i></a>
+								<a href="#"><i class="fa fa fa-linkedin"></i></a>
+							</div>
+							<div class="speaker-content">
+								<h2>John Doe</h2>
+								<span>Manager, CEO</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /speaker -->
+
+				<!-- speaker modal -->
+				<div id="speaker-modal-1" class="speaker-modal modal fade">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<button type="button" class="speaker-modal-close" data-dismiss="modal"></button>
+							<div class="modal-body">
+								<div class="row">
+									<div class="col-md-5">
+										<div class="speaker-modal-img">
+											<img src="{% static 'temp/img/speaker-info.jpg'%}" alt="">
+										</div>
+									</div>
+									<div class="col-md-7">
+										<div class="speaker-modal-content">
+											<h2 class="speaker-name">John Doe</h2>
+											<span class="speaker-job">- Manager, CEO</span>
+
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+												irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+											<div class="speaker-website">
+												<h4>Website</h4>
+												<a href="#">www.johndoe.com</a>
+											</div>
+
+											<div class="speaker-social">
+												<h4>Social Profile</h4>
+												<a href="#"><i class="fa fa-facebook"></i></a>
+												<a href="#"><i class="fa fa-twitter"></i></a>
+												<a href="#"><i class="fa fa-instagram"></i></a>
+												<a href="#"><i class="fa fa fa-linkedin"></i></a>
+											</div>
+
+											<div class="speaker-events">
+												<h4>Sessions</h4>
+												<div class="speaker-event">
+													<span><strong>Day 1 -</strong> February 20, 2018 8 : 00 AM - 11 : 00 AM</span>
+													<p>His id altera fabellas facilisis. Has eros assueverit cu</p>
+												</div>
+
+												<div class="speaker-event">
+													<span><strong>Day 2 -</strong> February 20, 2018 8 : 00 AM - 11 : 00 AM</span>
+													<p>At mucius deserunt delicatissimi eam, labitur detraxit ut sit</p>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /speaker modal -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /Speakers -->
+
+	<!-- Sponsors -->
+	<div id="sponsors" class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="section-title">
+					<h3 class="title"><span>Our</span> <span style="color: #dd0a37;">Sponsors</span></h3>
+				</div>
+				<!-- /section title -->
+
+				<!-- sponsor -->
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="{% static 'temp/img/sponsor.png'%}" alt="">
+					</a>
+				</div>
+				<!-- /sponsor -->
+
+				<!-- sponsor -->
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="{% static 'temp/img/sponsor.png'%}" alt="">
+					</a>
+				</div>
+				<!-- /sponsor -->
+
+				<!-- sponsor -->
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="{% static 'temp/img/sponsor.png'%}" alt="">
+					</a>
+				</div>
+				<!-- /sponsor -->
+
+				<!-- sponsor -->
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="{% static 'temp/img/sponsor.png'%}" alt="">
+					</a>
+				</div>
+				<!-- /sponsor -->
+
+				<!-- sponsor -->
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="{% static 'temp/img/sponsor.png'%}" alt="">
+					</a>
+				</div>
+				<!-- /sponsor -->
+
+				<!-- sponsor -->
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="{% static 'temp/img/sponsor.png'%}" alt="">
+					</a>
+				</div>
+				<!-- /sponsor -->
+
+				<!-- sponsor -->
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="{% static 'temp/img/sponsor.png'%}" alt="">
+					</a>
+				</div>
+				<!-- /sponsor -->
+
+				<!-- sponsor -->
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<a href="#" class="sponsor">
+						<img src="{% static 'temp/img/sponsor.png'%}" alt="">
+					</a>
+				</div>
+				<!-- /sponsor -->
+
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /Sponsors -->
+
+	<!-- CTA -->
+	<div id="cta" class="section">
+		<!-- background image -->
+		<div class="section-bg" style="background-image:url({% static 'temp/img/background03.jpg'%})" data-stellar-background-ratio="0.5"></div>
+		<!-- /background image -->
+
+		<!-- container -->
+		<div class="container">
+			<!-- container -->
+			<div class="row">
+				<!-- cta content -->
+				<div class="col-md-8 col-md-offset-2">
+					<div class="cta-content text-center">
+						<h2>Get Place Now!</h2>
+						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<a href="{% url 'post_new' %}"class="main-btn">Registration</a>
+					</div>
+				</div>
+				<!-- /cta content -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /CTA -->
+
+	<!-- Contact -->
+	<div id="contact" class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="section-title">
+					<h3 class="title"><span>Contact</span> <span style="color: #dd0a37;">Info</span></h3>
+				</div>
+				<!-- /section title -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<h3>Address</h3>
+						<p>2635 Simons Hollow Road, NEW YORK</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<h3>Phone</h3>
+						<p>570-751-2415</p>
+					</div>
+				</div>
+				
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<h3>Email</h3>
+						<a href="#">event@support.com</a>
+					</div>
+				</div>
+				<!-- /contact -->
+			
+			</div>
+			<div class="row">
+	
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2633.549262538891!2d6.191468215623614!3d48.694981779271906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4794983fc320d4b5%3A0xb05f011bc8e53da5!2sENSGSI%20-%20Groupe%20INP!5e0!3m2!1sfr!2sfr!4v1583079789642!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+
+		<!-- Map -->
+		<div id="map"></div>
+		<!-- /Map -->
+	</div>
+	<!-- /Contact -->
+
+	<!-- Footer -->
+
+	<!-- /Footer -->
+
+	<!-- jQuery Plugins -->
+	<script src="{% static 'temp/js/jquery.min.js'%}"></script>
+	<script src="{% static 'temp/js/bootstrap.min.js'%}"></script>
+	<script src="{% static 'temp/js/jquery.waypoints.min.js'%}"></script>
+	<script src="{% static 'temp/js/owl.carousel.min.js'%}"></script>
+	<script src="{% static 'temp/js/jquery.stellar.min.js'%}"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<script src="{% static 'temp/ejs/google-map.js'%}"></script>
+	<script src="{% static 'temp/js/jquery.countTo.js'%}"></script>
+	<script src="{% static 'temp/js/main.js'%}"></script>
+	    <script src="{% static 'js/gmaps.min.js'%}"></script>
+
+</body>
+
+</html>

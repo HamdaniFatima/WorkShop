@@ -1,0 +1,130 @@
+
+
+			{% load static %}
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="{% static 'img/favicon.png" type="image/png">
+        <title>Industry 4.0</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+        <link rel="stylesheet" href="{% static 'vendors/linericon/style.css' %}">
+        <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+        <link rel="stylesheet" href="{% static 'vendors/owl-carousel/owl.carousel.min.css' %}">
+        <link rel="stylesheet" href="{% static 'vendors/lightbox/simpleLightbox.cs' %}">
+        <link rel="stylesheet" href="{% static 'vendors/nice-select/css/nice-select.css' %}">
+		<link rel="stylesheet" href="{% static 'vendors/animate-css/animate.css' %}">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- main css -->
+        <link rel="stylesheet" href="{% static 'css/style.css'%}">
+        <link rel="stylesheet" href="{% static 'css/responsive.css'%}">
+    </head>
+    <body>
+        
+        <!--================Header Menu Area =================-->
+       
+        <!--================Header Menu Area =================-->
+        
+        <!--================Home Banner Area =================-->
+
+        <!--================End Home Banner Area =================-->
+        
+        <!--================Event Time Area =================-->
+   
+        <!--================End Event Time Area =================-->
+        
+        <!--================Welcome Area =================-->
+
+        <!--================End Welcome Area =================-->
+        
+        <!--================Team Area =================-->
+        <section class="team_area p_120">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>Send us your request</h2>
+        			<p></p>
+        		</div>
+				<div class="container">
+					{% load crispy_forms_tags %}
+					<form method="post">
+						{% csrf_token %}
+						<div class="form-row">
+						  <div class="form-group col-md-6 mb-0">
+							{{ form.email|as_crispy_field }}
+						  </div>
+						  <div class="form-group col-md-2 mb-0">
+							{{ form.first_name|as_crispy_field }}
+						  </div>
+						  <div class="form-group col-md-2 mb-0">
+							{{ form.last_name|as_crispy_field }}
+						  </div>
+						
+						
+						 
+							<div class="form-group col-md-6 mb-0">
+								{{ form.school|as_crispy_field }}
+							  </div>
+				
+						</div>
+						
+						<div class="form-row">
+							<div class="form-group col-md-6 mb-0">
+								{{ form.address|as_crispy_field }}
+							  </div>
+							<div class="form-group col-md-4 mb-0">
+								{{ form.country|as_crispy_field }}
+							  </div>
+						  <div class="form-group col-md-4 mb-0">
+							{{ form.city|as_crispy_field }}
+						  </div>
+						 
+						  <div class="form-group col-md-2 mb-0">
+							{{ form.zip_code|as_crispy_field }}
+						  </div>
+							 
+							  <div class="form-group col-md-4 mb-0">
+								{{ form.phone_number|as_crispy_field }}
+							  </div>
+						</div>
+						
+						<button type="submit" class="btn sub-btn" >Registration</button>
+					  </form>
+				  </div>
+        	</div>
+        </section>    
+        <!--================End Event Schedule Area =================-->
+        
+        <!--================Price Area =================-->
+ 
+
+		<!--================ End footer Area  =================-->
+        
+        
+        
+        
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="{% static 'js/jquery-3.2.1.min.js'%}"></script>
+        <script src="{% static 'js/popper.js'%}"></script>
+        <script src="{% static 'js/bootstrap.min.js'%}"></script>
+        <script src="{% static 'js/stellar.js'%}"></script>
+        <script src="{% static 'vendors/lightbox/simpleLightbox.min.js'%}"></script>
+        <script src="{% static 'vendors/nice-select/js/jquery.nice-select.min.js'%}"></script>
+        <script src="{% static 'vendors/isotope/imagesloaded.pkgd.min.js'%}"></script>
+        <script src="{% static 'vendors/isotope/isotope-min.js'%}"></script>
+        <script src="{% static 'vendors/owl-carousel/owl.carousel.min.js'%}"></script>
+        <script src="{% static 'js/jquery.ajaxchimp.min.js'%}"></script>
+        <script src="{% static 'vendors/flipclock/timer.js'%}"></script>
+        <script src="{% static 'vendors/counter-up/jquery.waypoints.min.js'%}"></script>
+        <script src="{% static 'vendors/counter-up/jquery.counterup.js'%}"></script>
+        <script src="{% static 'js/mail-script.js'%}"></script>
+        <!--gmaps Js-->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+        <script src="{% static 'js/gmaps.min.js'%}"></script>
+        <script src="{% static 'js/theme.js'%}"></script>
+    </body>
+</html>
